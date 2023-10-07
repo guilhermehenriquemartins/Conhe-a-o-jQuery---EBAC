@@ -3,48 +3,61 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Roboto, sans-serif;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 header {
-  background-color: rgb(102, 17, 182);
+  background-color: rgb(89, 0, 183);
+  color: white;
   display: flex;
   padding: 16px 0px;
   justify-content: center;
-  color: white;
   text-transform: uppercase;
   font-style: italic;
-  border-bottom: 16px solid rgb(76, 10, 137);
+  border-bottom: 16px solid rgb(70, 0, 145);
 }
 
 header button {
   margin-left: 16px;
+  background-color: rgb(12, 176, 12);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
 }
 
 form {
-  background-color: rgb(197, 197, 226);
+  background-color: rgb(191, 213, 226);
   padding: 24px 0px;
   text-align: center;
+  display: none;
 }
 
-form h2 {
-  margin-bottom: 16px;
+form h1 {
+  font-size: 1.5em;
 }
 
-input, button {
+form input {
+  margin-top: 16px;
   padding: 8px;
-}
-
-button {
-  background-color: rgb(13, 115, 13);
-  border: none;
-  color: white;
   cursor: pointer;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
-button[type='reset'] {
-  background-color: rgb(184, 10, 10);
+input[type='submit'] {
+  background-color: rgb(12, 176, 12);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+input[type='reset'] {
+  background-color: rgb(176, 22, 22);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }

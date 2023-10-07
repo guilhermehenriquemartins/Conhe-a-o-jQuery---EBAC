@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Banco de Imagens</title>
+  <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
   <link rel="stylesheet" href="first.css">
 </head>
 <body>
   <header>
-    <h1>Galeria de Fotos</h1>
-    <button type="button">Nova imagem +</button>
+    <h1>galeria de fotos</h1>
+    <button type="submit">nova imagem+</button>
   </header>
-  <form action="cadastro.php">
-    <h2>Inserir Nova Imagem</h2>
-    <input type="url" name="" id="" required placeholder="URL da imagem">
-    <button type="submit">Adicionar</button>
-    <button type="reset">Cancelar</button>
+  <form action="banco.php">
+    <h1>Inserir nova imagem</h1>
+    <input type="url" name="imagem" id="imagem" placeholder="Endereço da imagem">
+    <input type="submit" value="adicionar" id="botao-adicionar">
+    <input type="reset" value="cancelar" id="botao-cancelar">
   </form>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="programando.js"></script>
